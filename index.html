@@ -7,9 +7,9 @@
     <title>Biker Zone 2024</title>
     <!-- =======================================================================Tailwind and DaisyUI link here=================================== -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script class="w-36" src="https://cdn.tailwindcss.com"></script>
     <!-- =========================fontawesome kits========================== -->
-    <script src="https://kit.fontawesome.com/87adba0cdb.js" crossorigin="anonymous"></script>
+    <script class="w-36" src="https://kit.fontawesome.com/87adba0cdb.js" crossorigin="anonymous"></script>
     <!-- ======================css links======================== -->
     <link rel="stylesheet" href="styles/style.css">
 
@@ -86,7 +86,7 @@
 
                     <!-- image content  -->
                     <div class="flex-1 mt-5">
-                        <img class="w-[406px] h-[343px] space-y-2" src="./images/slider/bike1.png" alt="">
+                        <img class="w-[406px] h-[343px] space-y-2" class="w-36" src="./images/slider/bike1.png" alt="">
                     </div>
                 </div>
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -107,7 +107,7 @@
 
                     <!-- image content  -->
                     <div class="flex-1 mt-5">
-                        <img class="w-[406px] h-[343px] space-y-2" src="./images/slider/bike2.png" alt="">
+                        <img class="w-[406px] h-[343px] space-y-2" class="w-36" src="./images/slider/bike2.png" alt="">
                     </div>
                 </div>
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -128,7 +128,7 @@
 
                     <!-- image content  -->
                     <div class="flex-1 mt-5">
-                        <img class="w-[406px] h-[343px] space-y-2" src="./images/slider/bike3.png" alt="">
+                        <img class="w-[406px] h-[343px] space-y-2" class="w-36" src="./images/slider/bike3.png" alt="">
                     </div>
                 </div>
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -149,7 +149,7 @@
 
                     <!-- image content  -->
                     <div class="flex-1 mt-5">
-                        <img class="w-[406px] h-[343px] space-y-2" src="./images/slider/bike4.png" alt="">
+                        <img class="w-[406px] h-[343px] space-y-2" class="w-36" src="./images/slider/bike4.png" alt="">
                     </div>
                 </div>
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -173,7 +173,7 @@
                 <!-- card1 -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure>
-                        <img src="./images/others/latest1.png" alt="latest1">
+                        <img class="w-36" src="./images/others/latest1.png" alt="latest1">
                     </figure>
                     <div class="card-body space-y-5">
                         <h2 class="card-title">Ducati XDIAVEL S-73</h2>
@@ -187,7 +187,7 @@
                 <!-- card2 -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure>
-                        <img src="./images/others/latest2.png" alt="latest1">
+                        <img class="w-36" src="./images/others/latest2.png" alt="latest1">
                     </figure>
                     <div class="card-body space-y-5">
                         <h2 class="card-title">Motorcycles & Scooters</h2>
@@ -201,7 +201,7 @@
                 <!-- card3 -->
                 <div class="card bg-base-100 shadow-xl">
                     <figure>
-                        <img src="./images/others/latest1.png" alt="latest1">
+                        <img class="w-36" src="./images/others/latest1.png" alt="latest1">
                     </figure>
                     <div class="card-body space-y-5">
                         <h2 class="card-title">2021 Honda CBR500R</h2>
@@ -226,7 +226,7 @@
             <div class="hero">
                 <div class="hero-content flex-col lg:flex-row ">
                     <div class="border border-blue-300 border-dashed p-5">
-                        <img class="w-[450px] h-[350px]" src="./images/others/faq.png" />
+                        <img class="w-[450px] h-[350px]" class="w-36" src="./images/others/faq.png" />
                     </div>
                     <!-- ------accordion---------- -->
                     <div class="space-y-5">
@@ -278,7 +278,28 @@
         <!-- =========================== Frequently Asked Questions ends here ============================= -->
     </main>
     <!-- ----------------------------------Footer Section----------------------------------------- -->
+    <footer class="footer bg-black text-neutral-content p-10">
     
+        <aside>
+            <p>
+                ACME Industries Ltd.
+                <br />
+                Providing reliable tech since 1992
+            </p>
+        </aside>
+        <nav>
+            <h6 class="footer-title">GET THE APP</h6>
+            <div class="grid grid-cols-1 gap-4">
+                <a>
+                  <img class="w-36" src="./images/others/android.png" alt="">
+                </a>
+                <a>
+                   <img class="w-36" src="./images/others/ios.png" alt="">
+                </a>
+            </div>
+        </nav>
+      
+    </footer>
 </body>
 
 </html>
